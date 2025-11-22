@@ -1,3 +1,28 @@
 {
-  "dart.flutterSdkPath": ".fvm/versions/stable"
+"dart.flutterSdkPath": ".fvm/versions/stable",
+
+  // 保存時の自動フォーマットを無効化
+  "editor.formatOnSave": false,
+  
+  // タイプ時の自動フォーマットを無効化
+  "editor.formatOnType": false,
+  
+  // ペースト時の自動フォーマットを無効化
+  "editor.formatOnPaste": false,
+  
+  // Dartの自動フォーマットを無効化
+  "[dart]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    "editor.formatOnPaste": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "never"
+    }
+  },
+  
+  // 自動インデントを無効化
+  "editor.autoIndent": "none",
+  
+  // Dart Analyzerの自動修正を無効化
+  "dart.enableSdkFormatter": false
 }
