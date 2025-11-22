@@ -19,4 +19,3 @@ class SettingPage extends ConsumerWidget {
     );
   }
 }
-

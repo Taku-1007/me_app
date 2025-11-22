@@ -11,12 +11,6 @@ final homeNavigatorKey = GlobalKey<NavigatorState>();
 final shareNavigatorKey = GlobalKey<NavigatorState>();
 final settingNavigatorKey = GlobalKey<NavigatorState>();
 
-enum ShellBranch { 
-  homePage, 
-  share, 
-  setting 
-}
-
 final router = GoRouter(
   initialLocation: '/home',
   routes: [
@@ -76,15 +70,6 @@ class RouteNames {
   static const share = 'share';
   static const setting = 'setting';
 }
-
-
-
-
-
-
-
-
-
 
 
 
